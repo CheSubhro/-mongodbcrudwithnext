@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 
-export default function addTopic(){
+export default function AddTopic(){
 
     const [title,setTitle] = useState('');
     const [description,setDescription]= useState('');
